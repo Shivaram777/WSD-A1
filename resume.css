@@ -1,161 +1,155 @@
+.personaldetails {
+   text-align: center;
+   color: blue;
+}
 
-      .personaldetails {
-         text-align: center;
-         color: blue;
-      }
+.name {
 
-      .name {
+   color: rgb(9, 0, 0);
+   text-align: left;
+   line-height: 10px;
 
-         color: rgb(9, 0, 0);
-         text-align: left;
-         line-height: 10px;
+}
 
-      }
+.name:hover {
+   text-decoration: underline;
+}
 
-      .name:hover {
-         text-decoration: underline;
-      }
+.degree {
+   text-align: left;
+   line-height: 0px;
+   color: rgb(43, 80, 226);
+}
 
-      .degree {
-         text-align: left;
-         line-height: 0px;
-         color: rgb(43, 80, 226);
-      }
+.border-rectangle {
+   width: 650px;
+   height: 230px;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-left: 500px;
+}
 
-      .border-rectangle {
-         width: 650px;
-         height: 230px;
-         border: 2px solid black;
-         border-radius: 5px;
-      }
+.border-rectangle2 {
+   width: 650px;
+   height: 320px;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-left: 500px;
 
-      .border-rectangle2 {
-         width: 650px;
-         height: 320px;
-         border: 2px solid black;
-         border-radius: 5px;
+}
 
-      }
+.border-rectangle3 {
+   width: 650px;
+   height: 160px;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-left: 500px;
 
-      .border-rectangle3 {
-         width: 650px;
-         height: 160px;
-         border: 2px solid black;
-         border-radius: 5px;
+}
 
-      }
+.border-rectangle4 {
+   width: 650px;
+   height: 140px;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-left: 500px;
 
-      .border-rectangle4 {
-         width: 650px;
-         height: 140px;
-         border: 2px solid black;
-         border-radius: 5px;
+}
 
-      }
+.border-rectangle5 {
+   width: 650px;
+   height: 180px;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-left: 500px;
 
-      .border-rectangle5 {
-         width: 650px;
-         height: 180px;
-         border: 2px solid black;
-         border-radius: 5px;
+}
 
-      }
+.edu {
+   color: black;
+   text-decoration: underline;
+   text-align: center;
+}
 
-      .edu {
-         color: black;
-         text-decoration: underline;
-      }
+.exp {
+   color: black;
+   text-decoration: underline;
+   text-align: center;
+}
 
-      .exp {
-         color: black;
-         text-decoration: underline;
-      }
+.cert {
+   color: black;
+   text-decoration: underline;
+   text-align: center;
+}
 
-      .cert {
-         color: black;
-         text-decoration: underline;
-      }
+.div1 {
 
-      .div1 {
-
-         color: black;
-
-
-      }
-
-      .div4 {
-         color: black;
-
-
-      }
-
-     
-
-      .contact-item {
-         margin: 5px;
-         font-size: 18px;
-         display: flex;
-         justify-content: left;
+   color: black;
 
 
-      }
+}
 
-      .contact-item i {
-         margin-right: 10px;
-
-      }
-
-      .list {
-         color: black;
-      }
+.div4 {
+   color: black;
 
 
-      .int {
-         color: black;
-      }
+}
 
-      #bar {
-         list-style-type: none;
-         padding: 0;
-         margin: 0;
-         display: flex;
 
-      }
 
-      #bar li {
-         margin-right: 300px;
-      }
+.contact-item {
+   margin: 5px;
+   font-size: 18px;
+}
 
-      #bar li:last-child {
-         margin-right: 0;
-      }
+.list {
+   color: black;
+}
 
-      #bar {
-         background-color: rgb(241, 204, 109);
-         padding: 10px 0;
-      }
 
-      #bar a {
-         color: black;
-         text-decoration: none;
-      }
+.int {
+   color: black;
+}
 
-      #pic {
-         width: 250px;
-         height: 200px;
-         border-radius: 60%;
-         float: right;
+#bar {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
 
-      }
+#bar li {
+   margin-right: 300px;
+   display: inline-block;
 
-      footer {
-         display: flex;
-         justify-content: center; 
-         background-color: rgb(241, 204, 109);
-      }
-      
-      .footer-content {
-         align-items: center; 
-      }
-      
-   
+}
+
+#bar li:last-child {
+   margin-right: 0;
+}
+
+#bar {
+   background-color: rgb(241, 204, 109);
+   padding: 10px 0;
+}
+
+#bar a {
+   color: black;
+   text-decoration: none;
+}
+
+#pic {
+   width: 250px;
+   height: 200px;
+   border-radius: 60%;
+   float: right;
+
+}
+
+footer {
+   background-color: rgb(241, 204, 109);
+}
+
+.footer-content {
+   text-align: center;
+}
